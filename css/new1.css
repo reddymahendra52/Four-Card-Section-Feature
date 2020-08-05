@@ -131,3 +131,19 @@ Here we do the changes we want to see after the size is changed.*/
         margin-top: -83px;
     }
 }
+@media screen and (max-width:768px) {
+    body {
+        width: 90%;
+        margin: 0 6% auto;
+    }
+
+    .grid {
+        max-width: 100%;
+        margin: 0 10% auto;
+    }
+}
+@media screen and (min-width:2000px){
+    .grid{
+        margin-left: 24%;
+    }
+}
